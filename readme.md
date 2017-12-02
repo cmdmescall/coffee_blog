@@ -20,11 +20,9 @@ Technologies
 Latest changes/updates
 ----------------------
 
-### 06 Nov 17
+### 02 Dec 17
 
-- Initial commit. Basic design.
+- Now responsive to screens from 300px wide up to 2560px wide.
 
 Future improvements
 -------------------
-
-- It's not fully responsive yet so that is the next step.
