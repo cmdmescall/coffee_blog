@@ -20,11 +20,9 @@ Technologies
 Latest changes/updates
 ----------------------
 
-### 06 Nov 17
+### 04 Nov 17
 
-- Initial commit. Basic design.
+- Added responsiveness
 
 Future improvements
 -------------------
-
-- It's not fully responsive yet so that is the next step.
