@@ -1,3 +1,7 @@
 *.scss
 *.map
-/static/js
+static/js/main.js
+index.min.html
+static/css/main.css
+static/vendor/normalize.css
+static/vendor/grid.css

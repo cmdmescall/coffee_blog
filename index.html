@@ -7,23 +7,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="favicon.ico">
-        <link rel="stylesheet" href="vendor/normalize.css">
-        <link rel="stylesheet" href="vendor/grid.css">
-        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="vendor/normalize.min.css">
+        <link rel="stylesheet" href="vendor/grid.min.css">
+        <link rel="stylesheet" href="static/css/main.min.css">
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         <link href="https://fonts.googleapis.com/css?family=Eczar:500|Nunito:200,300i,400" rel="stylesheet">
 
     </head>
     <body>
-		<header>
+		<header class="js--hero">
 
 			<nav>
 	        	<div class="row">
-	        		<img src="static/svg/tamper-logo.svg" alt="SVG Icon of a portafilter and tamper">
+	        		<a class="js--scroll-hero"><img src="static/svg/tamper-logo.svg" alt="SVG Icon of a portafilter and tamper"></a>
 	        		<ul class="nav-list">
-	        			<li><a href="#">Drinking Alone</a></li>
-	        			<li><a href="#">Out With Friends</a></li>
-	        			<li><a href="#">Try These At Home</a></li>
+	        			<li><a class="js--scroll-alone" href="#">Drinking Alone</a></li>
+	        			<li><a class="js--scroll-friends" href="#">Out With Friends</a></li>
+	        			<li><a class="js--scroll-home" href="#">Try These At Home</a></li>
 	        		</ul>
 	        	</div>
 	        </nav>
@@ -31,15 +31,15 @@
 			<div class="hero-screen">
 				<div class="row">
 					<h1>Manchester<br>A quick coffee tour</h1>
-					<a class ="btn btn-alone" href="#"><img src="static/svg/solo.svg" alt="SVG of a single espresso in a glass"><span>Drinking Alone</span></a>
-					<a class ="btn btn-friends" href="#"><img src="static/svg/doppio.svg" alt="SVG of a double espresso in a glass"><span>Out With Friends</span></a>
-					<a class ="btn btn-home" href="#"><img src="static/svg/beans.svg" alt="SVG of a coffee bean"><span>Try These At Home</span></a>
+					<a class ="btn btn-alone js--scroll-alone" href="#"><img src="static/svg/solo.svg" alt="SVG of a single espresso in a glass"><span>Drinking Alone</span></a>
+					<a class ="btn btn-friends js--scroll-friends" href="#"><img src="static/svg/doppio.svg" alt="SVG of a double espresso in a glass"><span>Out With Friends</span></a>
+					<a class ="btn btn-home js--scroll-home" href="#"><img src="static/svg/beans.svg" alt="SVG of a coffee bean"><span>Try These At Home</span></a>
 				</div>
 			</div>
 
 		</header>
 
-		<section class="alone">
+		<section class="alone js--alone">
 			<div class="row">
 				<h2>Drinking Alone</h2>
 				<h3><span class="pipe"><img src="static/svg/solo_black.svg" alt="SVG of a single espresso in a glass">|</span> Great Spots to Grab a Quiet Brew</h3>
@@ -92,7 +92,7 @@
 			</ul>
 		</section>
 
-		<section class="friends">
+		<section class="friends js--friends">
 			<div class="row">
 				<h2>Out With Friends</h2>
 				<h3><span class="pipe"><img src="static/svg/doppio_black.svg" alt="SVG of a double espresso in a glass">|</span> Take Your Friends for a Good Catch Up</h3>
@@ -145,7 +145,7 @@
 			</ul>
 		</section>
 
-		<section class="home">
+		<section class="home js--home">
 			<div class="row">
 				<h2>Try These At Home</h2>
 				<h3><span class="pipe"><img src="static/svg/beans_black.svg" alt="SVG of a coffee bean">|</span> My Favourite Roasteries for Things Best Enjoyed in Private</h3>
@@ -205,7 +205,8 @@
     			</div>
         	</div>
         </footer>
-        
-        <!-- <script src="static/js/main.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="static/js/main.min.js"></script>
     </body>
 </html>
