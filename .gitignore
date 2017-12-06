@@ -1,3 +1,4 @@
 *.scss
 *.map
 /static/js
+index.min.html
