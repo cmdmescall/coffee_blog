@@ -20,9 +20,11 @@ Technologies
 Latest changes/updates
 ----------------------
 
-### 02 Dec 17
+### 06 Nov 17
 
-- Now responsive to screens from 300px wide up to 2560px wide.
+- Added responsiveness including burger menu for mobile.
+- Added some Jquery animations
+
 
 Future improvements
 -------------------
