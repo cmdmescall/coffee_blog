@@ -20,9 +20,10 @@ Technologies
 Latest changes/updates
 ----------------------
 
-### 04 Nov 17
+### 06 Nov 17
 
-- Added responsiveness
+- Added responsiveness including burger menu for mobile.
+- Added some Jquery animations
 
 Future improvements
 -------------------
